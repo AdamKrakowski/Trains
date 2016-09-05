@@ -1,0 +1,10 @@
+ipch/
+_UpgradeReport_Files/
+MouseTest/Release/
+*.pdb
+*.suo
+*.sdf
+!MouseTest.exe
+!Release/Enginees
+!Release/Vagons
+

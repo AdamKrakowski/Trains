@@ -1,0 +1,342 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MOUSETEST           ICON                    "MouseTest.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+//IDB_BITMAP_T0           BITMAP                  "BMPF\Test.bmp"
+//IDB_MONO_BMP            BITMAP                  "BMPF\mono.bmp"
+IDB_BITMAP_E0           BITMAP                  "BMPF\Engine0.bmp"
+IDB_BITMAP_E1           BITMAP                  "BMPF\Engine1.bmp"
+IDB_BITMAP_E2           BITMAP                  "BMPF\Engine2.bmp"
+IDB_BITMAP_E3           BITMAP                  "BMPF\Engine3.bmp"
+IDB_BITMAP_E4           BITMAP                  "BMPF\Engine4.bmp"
+IDB_BITMAP_E5           BITMAP                  "BMPF\Engine5.bmp"
+IDB_BITMAP_E6           BITMAP                  "BMPF\Engine6.bmp"
+IDB_BITMAP_E7           BITMAP                  "BMPF\Engine7.bmp"
+IDB_BITMAP_E8           BITMAP                  "BMPF\Engine0.bmp"
+IDB_BITMAP_E9           BITMAP                  "BMPF\Engine0.bmp"
+
+IDB_BITMAP_V0           BITMAP                  "BMPF\Vagon0.bmp"
+IDB_BITMAP_V1           BITMAP                  "BMPF\Vagon1.bmp"
+IDB_BITMAP_V2           BITMAP                  "BMPF\Vagon2.bmp"
+IDB_BITMAP_V3           BITMAP                  "BMPF\Vagon3.bmp"
+
+IDB_BITMAP_V4           BITMAP                  "BMPF\Vagon4.bmp"
+IDB_BITMAP_V5           BITMAP                  "BMPF\Vagon5.bmp"
+IDB_BITMAP_V6           BITMAP                  "BMPF\Vagon6.bmp"
+IDB_BITMAP_V7           BITMAP                  "BMPF\Vagon7.bmp"
+IDB_BITMAP_V8           BITMAP                  "BMPF\Vagon8.bmp"
+IDB_BITMAP_V9           BITMAP                  "BMPF\Vagon9.bmp"
+
+IDB_BITMAP_S0U          BITMAP                  "BMPF\Stright.bmp"
+IDB_BITMAP_S0D          BITMAP                  "BMPF\Stright.bmp"
+
+IDB_BITMAP_B0U           BITMAP                  "BMPF\Bend0R.bmp"            
+IDB_BITMAP_B0D           BITMAP                  "BMPF\Bend0R.bmp" 
+IDB_BITMAP_B0UL           BITMAP                 "BMPF\Bend0L.bmp"            
+IDB_BITMAP_B0DL           BITMAP                 "BMPF\Bend0L.bmp"   
+
+IDB_BITMAP_B1U           BITMAP                  "BMPF\Bend1R.bmp"            
+IDB_BITMAP_B1D           BITMAP                  "BMPF\Bend1R.bmp"
+IDB_BITMAP_B1UL          BITMAP                  "BMPF\Bend1L.bmp"            
+IDB_BITMAP_B1DL          BITMAP                  "BMPF\Bend1L.bmp"  
+
+IDB_BITMAP_B2U           BITMAP                  "BMPF\Bend2R.bmp"           
+IDB_BITMAP_B2D           BITMAP					 "BMPF\Bend2R.bmp" 
+IDB_BITMAP_B2UL           BITMAP                 "BMPF\Bend2L.bmp"           
+IDB_BITMAP_B2DL           BITMAP				 "BMPF\Bend2L.bmp"   
+
+IDB_BITMAP_W0U          BITMAP                  "BMPF\Switch0R.bmp"     
+IDB_BITMAP_W0D         BITMAP                   "BMPF\Switch0R.bmp"  
+IDB_BITMAP_W0UL          BITMAP                 "BMPF\Switch0L.bmp"     
+IDB_BITMAP_W0DL         BITMAP                  "BMPF\Switch0L.bmp"   
+
+IDB_BITMAP_W1U          BITMAP                  "BMPF\Switch1R.bmp"       
+IDB_BITMAP_W1D          BITMAP                  "BMPF\Switch1R.bmp"  
+IDB_BITMAP_W1UL          BITMAP                 "BMPF\Switch1L.bmp"       
+IDB_BITMAP_W1DL          BITMAP                 "BMPF\Switch1L.bmp"
+
+            
+IDB_BITMAP_E0U         BITMAP                  "BMPF\EndRail.bmp"         
+IDB_BITMAP_E0D         BITMAP                  "BMPF\EndRail.bmp"       
+
+       
+IDB_BITMAP_DIS          BITMAP                  "BMPF\Dis56x26.bmp"   
+
+
+IDB_BITMAP_BDN_H			BITMAP                  "BMPF\ButtonDn_H.bmp" 
+IDB_BITMAP_BUP_H			BITMAP                  "BMPF\ButtonUp_H.bmp"  
+
+IDB_BITMAP_BDN_V			BITMAP                  "BMPF\ButtonDn_V.bmp" 
+IDB_BITMAP_BUP_V			BITMAP                  "BMPF\ButtonUp_V.bmp"  
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MOUSETEST MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+        MENUITEM "&Save",                       IDM_SAVE
+        MENUITEM "&Restore",                    IDI_RESTORE
+    END
+    POPUP "Mode"
+    BEGIN
+        MENUITEM "&Add",                        IDM_MODE_ADD
+        MENUITEM "&Edit",                       IDM_MODE_EDIT
+        MENUITEM "&Control",                    IDM_MODE_CNTR
+    END
+    POPUP "Add Rail"
+    BEGIN
+        MENUITEM "Add straight rails",          IDM_ADD_STRAIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "Add left bend rails",         IDM_ADD_BEND_LEFT
+        MENUITEM "Add right bend rails",        IDM_ADD_BEND_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "Add left bend rails short",   IDM_ADD_BEND_LEFT2
+        MENUITEM "Add right bend rails short",  IDM_ADD_BEND_RIGHT2
+        MENUITEM SEPARATOR
+        MENUITEM "Add left bend rails mid",     IDM_ADD_BEND_LEFT3
+        MENUITEM "Add right bend rails mid",    IDM_ADD_BEND_RIGHT3
+        MENUITEM SEPARATOR
+        MENUITEM "Add cross left rails",        IDM_ADD_CROSS_LEFT
+        MENUITEM "Add cross right rails",       IDM_ADD_CROSS_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "Add cross left rails mid",    IDM_ADD_CROSS_LEFT2
+        MENUITEM "Add cross right rails mid",   IDM_ADD_CROSS_RIGHT2
+        MENUITEM SEPARATOR
+        MENUITEM "Add stop rail",               IDM_ADD_STOP
+    END
+    POPUP "Add Locomotive"
+    BEGIN
+        MENUITEM "Add0",                        IDM_TRAIN_ADDL0
+        MENUITEM "Add1",                        IDM_TRAIN_ADDL1
+        MENUITEM "Add2",                        IDM_TRAIN_ADDL2
+        MENUITEM "Add3",                        IDM_TRAIN_ADDL3
+        MENUITEM "Add4",                        IDM_TRAIN_ADDL4
+        MENUITEM "Add5",                        IDM_TRAIN_ADDL5
+        MENUITEM "Add6",                        IDM_TRAIN_ADDL6        
+		MENUITEM "Add7",                        IDM_TRAIN_ADDL7
+		MENUITEM "Add8",                        IDM_TRAIN_ADDL8
+		MENUITEM "Add9",                        IDM_TRAIN_ADDL9
+		MENUITEM "Add10",                        IDM_TRAIN_ADDL10
+    END
+    POPUP "Add Vagon"
+    BEGIN
+        MENUITEM "Add0",                        IDM_TRAIN_ADD0
+        MENUITEM "Add1",                        IDM_TRAIN_ADD1
+        MENUITEM "Add2",                        IDM_TRAIN_ADD2
+        MENUITEM "Add3",                        IDM_TRAIN_ADD3
+        MENUITEM "Add4",                        IDM_TRAIN_ADD4
+        MENUITEM "Add5",                        IDM_TRAIN_ADD5
+        MENUITEM "Add6",                        IDM_TRAIN_ADD6
+        MENUITEM "Add7",                        IDM_TRAIN_ADD7
+        MENUITEM "Add8",                        IDM_TRAIN_ADD8
+        MENUITEM "Add9",                        IDM_TRAIN_ADD9
+        MENUITEM "Add10",                        IDM_TRAIN_ADD10
+    END
+    POPUP "Add Control"
+    BEGIN
+        MENUITEM "Semphore",                    IDM_SEM_ADD
+        MENUITEM "Switch",						IDM_SWI_ADD
+    END
+
+    POPUP "Modify"
+    BEGIN
+        MENUITEM "Rail Info",                   IDM_MODIFY_INFO
+        MENUITEM "Vagon Info",                   IDM_MODIFY_VINFO
+        MENUITEM "Delete",                      IDM_MODIFY_DELETE
+        MENUITEM "Snap  ",                      IDM_MODIFY_SNAP
+        MENUITEM "Snap X",                      IDM_MODIFY_SNAP_X
+    END
+    POPUP "Select"
+    BEGIN
+        MENUITEM "Object",                      IDM_SELECT_OBJECT
+        MENUITEM SEPARATOR
+        MENUITEM "Region",                      IDM_SELECT_REGION
+        MENUITEM SEPARATOR
+        MENUITEM "Two regions",                 IDM_SELECT_2REGIONS
+        MENUITEM SEPARATOR
+        MENUITEM "None",                        IDM_SELECT_NONE
+    END
+    POPUP "Train"
+    BEGIN
+        MENUITEM "Swap direction",              IDM_TRAIN_DIR
+        MENUITEM "Move one step",               IDM_TRAIN_STEP
+        MENUITEM "Start",                       IDM_TRAIN_START
+        MENUITEM "Stop",                        IDM_TRAIN_STOP
+        MENUITEM "Fast",                        IDM_TRAIN_FAST
+        MENUITEM "Slow",                        IDM_TRAIN_SLOW
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "&UndoRail",                   IDM_TOOLS_UNDO
+        MENUITEM "&UndoVagon",                  IDM_TOOLS_UNDOVAGON
+        MENUITEM "&Togle Reference Line",       IDM_TOOLS_TGL_LINE
+        MENUITEM "Store Reference Line&1",      IDM_TOOLS_STORE_LINE1
+        MENUITEM "Store Reference Line&2",      IDM_TOOLS_STORE_LINE2
+        MENUITEM "Store Reference Line&3",      IDM_TOOLS_STORE_LINE3
+        MENUITEM "Store Reference Line&4",      IDM_TOOLS_STORE_LINE4
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MOUSETEST ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MouseTest"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "MouseTest, Version 1.2",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright AJG (C) 2014",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_GETFILENAME DIALOGEX 0, 0, 168, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select file to read"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+	LISTBOX         IDC_LISTBOX1 , 10, 10, 100, 196
+    DEFPUSHBUTTON   "OK",IDOK, 114, 10,50,14,WS_GROUP
+	PUSHBUTTON   "Cancel",IDCANCEL, 114, 28,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "MouseTest"
+    IDC_MOUSETEST           "MOUSETEST"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
